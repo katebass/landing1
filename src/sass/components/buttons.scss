@@ -1,0 +1,9 @@
+.but{
+		width: 130px;
+		border-radius: 20px !important;
+		border: 2px solid lightblue !important;
+		transition: .4s ease-out;
+	&:hover{
+		background-color: rgba(0,0,0,0) !important;
+	}
+}

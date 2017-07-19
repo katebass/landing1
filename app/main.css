@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+.box-bright {
+  background-color: white; }
+
+.box-grey {
+  background-color: #f8f8f8; }
+
+.but {
+  width: 130px;
+  border-radius: 20px !important;
+  border: 2px solid lightblue !important;
+  transition: .4s ease-out; }
+  .but:hover {
+    background-color: transparent !important; }
+
+.navigation {
+  position: fixed;
+  background-color: #f8f8f8;
+  height: 70px;
+  z-index: 2;
+  width: 100%;
+  margin: 0 !important;
+  padding: 10px 100px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  transition: .4s ease opacity; }
+  .navigation-logo {
+    padding: 0 !important; }
+
+.visibility-no {
+  opacity: 0;
+  disply: none; }
+
+.first-section {
+  background-image: url("images/1.jpg");
+  background-size: cover; }
+
+.header {
+  padding: 170px 100px 100px;
+  color: white; }
+  .header-title {
+    padding-top: 100px;
+    font-size: 50px;
+    background-color: rgba(66, 67, 68, 0.5); }
+  .header .main-form {
+    padding-top: 30px;
+    width: 89%;
+    position: relative;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center; }
+    .header .main-form p {
+      margin: 10px; }
+    .header .main-form input, .header .main-form textarea {
+      padding: 10px;
+      margin: 8px;
+      width: 90%;
+      font-size: 14px;
+      height: 50px; }
+    .header .main-form textarea {
+      height: 150px; }
+    .header .main-form button {
+      margin: 20px;
+      width: 90%; }
+    .header .main-form::before {
+      content: "";
+      border-color: rgba(255, 255, 255, 0.7) transparent;
+      border-style: solid;
+      border-width: 0 205px 40px;
+      top: -40px;
+      height: 0;
+      left: 0;
+      position: absolute;
+      width: 0; }
+
+.services {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 100px;
+  padding: 50px 0; }
+  .services-title {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 50px; }
+  .services-columns column {
+    padding: 0;
+    border: 2px solid blue; }
+  .services .read-more {
+    color: blue; }
+  .services .column-title {
+    font-size: 20px; }
+  .services .column-subtitle {
+    font-size: 14px; }

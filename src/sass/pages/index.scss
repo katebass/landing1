@@ -1,0 +1,76 @@
+.first-section{
+	background-image: url('images/1.jpg');
+	background-size: cover;
+}
+.header{
+	padding: 170px 100px 100px;
+	color: white;
+
+	&-title{
+		padding-top: 100px;
+		font-size: 50px;
+		background-color: rgba(66, 67, 68, 0.5);
+	}
+	.main-form{
+		padding-top: 30px;
+		width: 89%;
+		position: relative;
+		color: black;
+		background-color: rgba(255, 255, 255, 0.7);
+		text-align: center;
+		p{
+			margin: 10px;
+		}
+		input, textarea{
+			padding: 10px;
+			margin: 8px;
+			width: 90%;
+			font-size: 14px;
+			height: 50px;
+		}
+		textarea{
+			height: 150px;
+		}
+		button{
+			margin: 20px;
+			width: 90%;
+		}
+		&::before{
+			content: "";
+			border-color: rgba(255, 255, 255, 0.7) transparent;
+			border-style: solid;
+			border-width: 0 205px 40px;
+			top: -40px;
+			height: 0;
+			left: 0;
+			position: absolute;
+			width: 0;
+		}
+	}
+}
+
+.services{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 100px;
+    padding: 50px 0;
+    &-title{
+		font-size: 40px;
+	    font-weight: 400;
+	    letter-spacing: 1px;
+	    text-align: center;
+	    padding-bottom: 50px;
+    }
+    &-columns column{
+    	padding: 0;
+    	border: 2px solid blue;
+    }
+    .read-more{
+    	color: blue;
+    }
+    .column-title{
+    	font-size: 20px;
+    }
+    .column-subtitle{
+    	font-size: 14px;
+    }
+}

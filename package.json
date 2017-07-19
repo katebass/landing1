@@ -1,0 +1,25 @@
+{
+  "name": "landing1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "bulma": "^0.4.3",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
