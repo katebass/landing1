@@ -1,8 +1,9 @@
 .but{
-		width: 130px;
+		height: 40px;
 		border-radius: 20px !important;
 		border: 2px solid lightblue !important;
 		transition: .4s ease-out;
+		background-color: lightblue !important;
 	&:hover{
 		background-color: rgba(0,0,0,0) !important;
 	}
