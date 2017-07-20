@@ -431,6 +431,8 @@ footer {
 
 .navigation {
   position: fixed;
+  display: inline-flex;
+  align-items: center;
   background-color: #f8f8f8;
   height: 70px;
   z-index: 2;
@@ -443,6 +445,8 @@ footer {
   transition: .4s ease opacity; }
   .navigation-logo {
     padding: 0 !important; }
+  .navigation-item {
+    cursor: pointer; }
 
 .visibility-no {
   opacity: 0;
